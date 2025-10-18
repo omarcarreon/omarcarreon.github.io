@@ -1,0 +1,103 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="resume">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Summary</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Engineering Manager with 9+ years in software development and technical leadership, combining hands-on execution with managing cross-functional teams. Experienced in developing high-performing teams, optimizing engineering processes, and building scalable solutions that drive business impact in fast-paced environments.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Software Engineering Manager at Nowports"
+      subtitle="From August 2023 to April 2025 (Remote)"
+    >
+      <ul class="list-disc mx-3.5">
+        <li>Managed an 18-member engineering org while staying hands-on, driving technical decisions and system design for ERP integrations and cross-platform modules across 6 countries.</li>
+        <li>Led roadmap planning for 3 squads, partnering with Product and stakeholders to align technical strategy with product vision and business goals. </li>
+        <li>Defined and tracked the engineering department’s KPIs in alignment with company OKRs.</li>
+        <li>Led cross-functional collaboration to standardize engineering processes and design a scalable department-wide hiring framework, supporting a 200% team expansion.</li>
+        <li>Partnered with the leadership team to define consistent job descriptions and expectations for engineering roles across all seniority levels, enabling hiring consistency and internal career path clarity.</li>
+      </ul>
+      <br/>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Software Engineer Leader at Nowports"
+      subtitle="From May 2020 to July 2023 (Remote)"
+    >
+      <ul class="list-disc mx-3.5">
+        <li>Managed 5 full-stack engineers, driving system design and delivering a quotation platform that automated workflows to reduce manual operational tasks, processing over 200k quotes.</li>
+        <li>Coordinated with DevOps, Architecture, Data, Product, Design, and QA teams to align on technical scope and quality standards, improving cross-team delivery and consistency.</li>
+        <li>Mentored engineers through personalized growth paths, strengthening technical and soft skills and resulting in 5 promotions.</li>
+      </ul>
+      <br/>
+    </TimeLineElement>
+    <TimeLineElement
+      title="DevOps Engineer at Hexaware"
+      subtitle="From September 2019 to May 2020 (Remote)"
+    >
+      <ul class="list-disc mx-3.5">
+        <li>Implemented CI/CD pipelines for enterprise web applications using Azure DevOps, reducing deployment times and improving the reliability of software delivery.</li>
+      </ul>
+      <br />
+    </TimeLineElement>
+    <TimeLineElement
+      title="Software Engineer at SAFTU Tecnologías"
+      subtitle="From January 2017 to August 2019 (Monterrey, México)"
+    >
+      <ul class="list-disc mx-3.5">
+        <li>Developed an online blood-bank management system, improving the speed of unit transfers and streamlining inventory tracking between partner blood banks.</li>
+      </ul>
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Bachelor's Degree in Computer Science"
+      subtitle="2012 to 2017 at Instituto Tecnológico de Monterrey, Monterrey, México"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-3 mx-6">
+    <li>JavaScript</li>
+    <li>TypeScript</li>
+    <li>Python</li>
+    <li>Node.js</li>
+    <li>React</li>
+    <li>Angular</li>
+    <li>Express.js</li>
+    <li>Next.js</li>
+    <li>FastAPI</li>
+    <li>MySQL</li>
+    <li>PostgreSQL</li>
+    <li>MongoDB</li>
+    <li>Redis</li>
+    <li>AWS</li>
+    <li>Docker</li>
+    <li>Git</li>
+    <li>Agile</li>
+    <li>Scrum</li>
+    <li>Team Leadership</li>
+    <li>Strategic Planning</li>
+    <li>Technical Vision</li>
+    <li>Conflict Resolution</li>
+    <li>Business Communication</li>
+  </ul>
+</BaseLayout>
